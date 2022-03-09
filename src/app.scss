@@ -1,0 +1,31 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: lightsalmon;
+        position: relative;
+
+        // topbar 보이기 위함
+        top: 70px; 
+
+        // 아래서 위로 페이지 올라갈 때 부드럽게 
+        scroll-behavior: smooth;
+        
+        scroll-snap-type: y mandatory;
+
+        // Hide the scrollbar
+        scrollbar-width: none; // 1) for firefox
+        &::-webkit-scrollbar{   // 2) Other browsers
+            display: none;
+        }
+
+        // Conponents
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        }
+    }
+}
