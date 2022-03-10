@@ -9,7 +9,7 @@ export default  function Works(){
             icon: "./assets/mobile.png",
             title:"mobile develop",
             desc:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit Consequuntur perspiciatis.",
+            "HTML 기술 역량Lorem, ipsum dolor sit amet consectetur adipisicing elit Consequuntur perspiciatis.",
             img:
             "https://mblogthumb-phinf.pstatic.net/MjAyMDAxMzBfNzIg/MDAxNTgwMzczMDQzODcw.2_Dy_s_6UVMRCgH3eGkxZY7RGb3W-60XvUdWhZLQU5og.U-zGnRffLXGGLQmwzww0ypjk-2cxPURsUWamnBZ6VlMg.PNG.kosoodream/2020%EC%9B%B9%EB%94%94%EC%9E%90%EC%9D%B8%ED%8A%B8%EB%A0%8C%EB%93%9C_7-1.png?type=w800"
         },

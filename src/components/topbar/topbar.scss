@@ -80,9 +80,12 @@
     &.active{
         background-color: $mainColor;
         color: white;
-        a{
-            color: white;
-        }
+        // .itemContainer{
+        //     a{
+        //         color: white;
+        //     }
+        // }
+        
 
         .hamberger{
             span{
