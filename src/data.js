@@ -1,197 +1,41 @@
-export const featurePortfolio = [
+export const moviePortfolio = [
     {
         id:1,
         title:"Movie App",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
+        img:"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0783f467-923c-4f2c-8396-65e811c8dbb8/%EC%BA%A1%EC%B2%98.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220310%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220310T093215Z&X-Amz-Expires=86400&X-Amz-Signature=2c863896a7d4ff65a39e096154c2d17c58776ecb61973388388fbca22fb320df&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25EC%25BA%25A1%25EC%25B2%2598.JPG.jpg%22&x-id=GetObject"
     },
     
-    {
-        id:2,
-        title:"Todo list",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
-    },
-    
-    {
-        id:3,
-        title:"Paint",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
-    },
-    
-    {
-        id:4,
-        title:"shopping Game",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
-    },
-    
-    {
-        id:5,
-        title:"Twitter Clone",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
-    },
-    
-    {
-        id:6,
-        title:"Project",
-        img:"https://cyberpunkinteractive.com/wp-content/uploads/2014/03/experts1.png"
-    },
 
 ]
 
-export const webPortfolio = [
+export const paintPortfolio = [
     {
         id:1,
-        title:"Movie App",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
+        title:"paint",
+        img:"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7a1e8de6-abe8-49de-ae28-fe730ca65009/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220310%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220310T092120Z&X-Amz-Expires=86400&X-Amz-Signature=e24adca4efea35a3fe86d0f982b3b093cbcee7874ba6296dd459e68186399f01&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
     },
     
-    {
-        id:2,
-        title:"Todo list",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
-    },
-    
-    {
-        id:3,
-        title:"Paint",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
-    },
-    
-    {
-        id:4,
-        title:"shopping Game",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
-    },
-    
-    {
-        id:5,
-        title:"Twitter Clone",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
-    },
-    
-    {
-        id:6,
-        title:"Project",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhnXzlko2quNExeVrA0rgKBuaApXuLzPjA&usqp=CAU"
-    },
-
 ]
 
-export const mobilePortfolio = [
+export const minishopPortfolio = [
     {
         id:1,
-        title:"Movie App",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
+        title:"minishop",
+        img:"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb3d3c0e-3025-4016-8de8-6db3018684a8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220310%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220310T092245Z&X-Amz-Expires=86400&X-Amz-Signature=0ff0ad8e2c601712d5f931d91f4a9cbb9d96bc76463f707ff3d6b24cf8178245&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
     },
     
-    {
-        id:2,
-        title:"Todo list",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
-    },
-    
-    {
-        id:3,
-        title:"Paint",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
-    },
-    
-    {
-        id:4,
-        title:"shopping Game",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
-    },
-    
-    {
-        id:5,
-        title:"Twitter Clone",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
-    },
-    
-    {
-        id:6,
-        title:"Project",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigHfR0CC1iInzEaKzY4GxgEc_USVt3Po-Ow&usqp=CAU"
-    },
+
 
 ]
 
-export const designPortfolio = [
+export const todolistPortfolio = [
     {
         id:1,
-        title:"Movie App",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
+        title:"todolist",
+        img:"https://user-images.githubusercontent.com/70140547/144764073-164858e4-9520-45e1-941c-93d399a9736b.JPG"
     },
     
-    {
-        id:2,
-        title:"Todo list",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
-    },
     
-    {
-        id:3,
-        title:"Paint",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
-    },
-    
-    {
-        id:4,
-        title:"shopping Game",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
-    },
-    
-    {
-        id:5,
-        title:"Twitter Clone",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
-    },
-    
-    {
-        id:6,
-        title:"Project",
-        img:"https://www.objectdeveloper.com/wp-content/uploads/2020/08/Best-Web-Application-Development-company-in-udaipur.png"
-    },
 
 ]
-
-export const contentPortfolio = [
-    {
-        id:1,
-        title:"Movie App",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-    
-    {
-        id:2,
-        title:"Todo list",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-    
-    {
-        id:3,
-        title:"Paint",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-    
-    {
-        id:4,
-        title:"shopping Game",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-    
-    {
-        id:5,
-        title:"Twitter Clone",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-    
-    {
-        id:6,
-        title:"Project",
-        img:"https://law2web.co.nz/wp-content/uploads/2019/01/icondesign-1.jpg"
-    },
-
-]
-
-
 

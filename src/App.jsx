@@ -1,7 +1,7 @@
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testmonials from "./components/testimonials/Testimonials";
+import Skills from "./components/skills/Skills";
 import Topbar from "./components/topbar/Topbar";
 import Works from "./components/work/Works";
 import "./app.scss";
@@ -18,8 +18,8 @@ function App() {
     <div className="sections">
       <Intro/>
       <Portfolio/>
-      <Works/>
-      <Testmonials/>
+      {/* <Works/> */}
+      <Skills/>
       <Contact/>
       </div>
     </div>

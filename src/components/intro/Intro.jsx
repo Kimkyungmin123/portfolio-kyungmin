@@ -12,7 +12,7 @@ export default  function Intro(){
             backSpeed: 60,
             showCursor: true,
 
-            strings: ['성장하는', '열정뿜뿜', 'ENTP'] })    
+            strings: ['성장하는', '열정뿜뿜', '긍정적인'] })    
     }, [])
     return (
         <div className='intro' id='intro'>
@@ -23,8 +23,8 @@ export default  function Intro(){
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>안녕하세요, 저는</h2>
-                    <h3><span ref={textRef}> </span>Web Front Developer</h3>
+                    <h2>안녕하세요🙋‍♀️ </h2>
+                    <h3><span ref={textRef}> </span>FE 개발자</h3>
                     <h1>김경민 입니다.</h1>
                     
                 </div>    

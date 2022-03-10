@@ -2,63 +2,55 @@ import { useEffect, useState } from 'react';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 import {
-    featurePortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio 
+    moviePortfolio,
+    paintPortfolio,
+    minishopPortfolio,
+    todolistPortfolio,
 } from "../../data.js";
 
 export default  function Portfolio(){
-    const [selected, setSelected] = useState("featured");
+    const [selected, setSelected] = useState("movie");
     const [data, setData] = useState([]);
     
     const list = [
         {
-            id: "featured",
-            title:"featured"
+            id: "movie",
+            title:"Movie App"
         },
         
         {
-            id: "web",
-            title:"Wep App"
+            id: "paint",
+            title:"Paint"
         },
         
         {
-            id: "mobil",
-            title:"Mobil App"
+            id: "minishop",
+            title:"Minishop Game"
         },
         
         {
-            id: "design",
-            title:"Design"
+            id: "todolist",
+            title:"Todolist "
         },
         
-        {
-            id: "content",
-            title:"Content"
-        },
     ];
 
     useEffect(()=>{
         switch(selected){
-            case "featured":
-                setData(featurePortfolio);
+            case "movie":
+                setData(moviePortfolio);
                 break;
-            case "web":
-                setData(webPortfolio);
+            case "paint":
+                setData(paintPortfolio);
                 break;
-            case "mobil":
-                setData(mobilePortfolio);
+            case "minishop":
+                setData(minishopPortfolio);
                 break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "content":
-                setData(contentPortfolio);
+            case "todolist":
+                setData(todolistPortfolio);
                 break;
             default:
-                setData(featurePortfolio);
+                setData(moviePortfolio);
         }
         
     },[selected])
