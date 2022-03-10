@@ -1,3 +1,62 @@
+
+
 .education{
-    background-color: aqua;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    
+    justify-content: center;
+    box-sizing: border-box;
+
+    h1{
+        font-size: 50px;
+    
+        
+    }
+    .container{
+        // background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px 0px;
+
+        
+
+        .eduDate{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            // background-color: orangered;
+            border: solid 1px;
+            border-radius: 30px;
+            
+
+            
+            
+            height: 120px;
+            // min-height: 20vh;
+            margin: 10px 0;
+            
+            // &:after{
+            //     background-color: blueviolet;
+            //     content: '';
+            //     position: absolute;
+            //     left: calc(50%-2px);
+            //     width: 4px;
+            //     height: 100%;
+
+            // }
+            .date{
+                margin: 10px;
+            }
+        }
+    }
+
+    
+
+
+
 }

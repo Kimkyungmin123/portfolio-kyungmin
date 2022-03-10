@@ -34,14 +34,16 @@ export default  function Education ()  {
     return (
         <div className='education' id='education'>
             <h1>Education</h1>
-
-            {list.map((data)=>(
-                <div>
-                <h3>{data.date}</h3>
-                <h2>{data.title}</h2>
-                <h4>{data.inst}</h4>
-                </div>
-            ))}
+            <div className='container'>
+                {list.map((data)=>(
+                    <div className='eduDate'>
+                        <span className='date'>{data.date}</span>
+                        <span className='title'>{data.title}</span>
+                        <span className='inst'>{data.inst}</span>
+                    </div>
+                ))}
+            </div>
+            <sapn className="circle"></sapn>
         </div>
     );
 }
