@@ -21,15 +21,15 @@ export default  function Certificate ()  {
     return (
         <div className='certificate' id='certificate'>
             <h1>Certificate</h1>
-            
+            <div className='container'>
                 {list.map((data)=>(
-                    <div>
-                        <h2>{data.title}</h2>
-                        <h3>{data.date}</h3>
-                        <h4>{data.inst}</h4>
+                    <div className='data'>
+                        <span className='title'>{data.title}</span>
+                        <span className='date'>{data.date}</span>
+                        <span className='inst'>{data.inst}</span>
                     </div>
                     ))}
-            
+            </div>
             
             
         </div>
