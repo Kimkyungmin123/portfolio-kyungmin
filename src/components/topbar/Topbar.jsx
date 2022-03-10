@@ -1,5 +1,5 @@
 import './topbar.scss';
-import {PhoneIphone, Mail} from "@material-ui/icons"
+import {Mail, GitHub, EventNote} from "@material-ui/icons"
 
 export default  function Topbar({menuOpen, setMenuOpen}){
     return (
@@ -7,13 +7,18 @@ export default  function Topbar({menuOpen, setMenuOpen}){
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className='logo'>gyomni</a>
-                    <div className="itemContainer">
-                        <PhoneIphone className="icon" />
-                        <span>010-6357-6937</span>    
-                    </div>
+                    
                     <div className="itemContainer">
                         <Mail className="icon" />
                         <span>kmkm6937@gmail.com</span>    
+                    </div>
+                    <div className="itemContainer">
+                        <GitHub className="icon" />
+                        <a href="https://github.com/Kimkyungmin123" alt="git">git</a>   
+                    </div>
+                    <div className="itemContainer">
+                        <EventNote className="icon" />
+                        <a href="https://velog.io/@gyomni" alt="blog">blog</a>   
                     </div>
                 
                 </div>

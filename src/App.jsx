@@ -4,6 +4,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 import Topbar from "./components/topbar/Topbar";
 import Works from "./components/work/Works";
+import Education from "./components/education/Education";
+import Certificate from "./components/certificate/Certificate";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
@@ -20,7 +22,9 @@ function App() {
       <Portfolio/>
       {/* <Works/> */}
       <Skills/>
-      <Contact/>
+      {/* <Contact/> */}
+      <Education/>
+      <Certificate/>
       </div>
     </div>
   );
