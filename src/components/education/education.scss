@@ -19,26 +19,40 @@
         flex-direction: column;
         position: relative;
         align-items: center;
-        justify-content: space-around;
-        margin: 30px 0px;
+        // justify-content: center;
+        margin: 0px 0px;
+        // height: 100%;
 
         
 
-        .eduDate{
+        .eduData{
             justify-content: center;
             display: flex;
             flex-direction: column;
             width: 500px;
+            height: 150px;
             // background-color: orangered;
             border-radius: 10px;
             box-shadow: 0px 0px 15px -8px black;
-            
+            margin: 20px 0;
+            justify-content: center;
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+                margin: 10px;
+            }
+            .date{
+                margin: 10px;
+            }
 
+            .inst{
+                margin: 10px;
+            }
             
             
-            height: 120px;
+           
             // min-height: 20vh;
-            margin: 10px 0;
+            
             
             // &:after{
             //     background-color: blueviolet;

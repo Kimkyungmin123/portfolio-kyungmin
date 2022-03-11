@@ -17,7 +17,7 @@
             width:  1000px;
             height: 1000px;
             background-color: #6263A3;
-            border-radius: 50%;
+            border-radius: 40% 55% 40% 40%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
@@ -25,6 +25,7 @@
 
             @include mobile{
                 align-items: flex-start;
+                border-radius: 50%;
             }
 
             img{
@@ -36,6 +37,7 @@
             }
         }
     }
+    
     .right{
         flex: 0.5;  // half 
         position: relative;
@@ -47,10 +49,11 @@
             display: flex;    
             flex-direction: column;
             justify-content: center;
-
+            margin: 0 50px;
             @include mobile{
                 padding-left: 0;
                 align-items: center;
+                margin: 0;
             }
 
             h1{
@@ -90,6 +93,8 @@
                 }
             }
             }
+
+
             a{
                 position: absolute;
                 bottom: 10px;
@@ -97,7 +102,7 @@
 
                 img{
                     width: 30px;
-                    animation: arrowBlink 3s infinite;
+                    animation: arrowBlink 2s infinite;
                 }
                 @keyframes arrowBlink {
                     100%{

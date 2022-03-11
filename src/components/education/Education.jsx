@@ -36,7 +36,7 @@ export default  function Education ()  {
             <h1>Education</h1>
             <div className='container'>
                 {list.map((data)=>(
-                    <div className='eduDate'>
+                    <div className='eduData'>
                         <span className='date'>{data.date}</span>
                         <span className='title'>{data.title}</span>
                         <span className='inst'>{data.inst}</span>

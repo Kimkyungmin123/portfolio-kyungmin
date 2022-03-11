@@ -21,17 +21,21 @@ export default  function Certificate ()  {
     return (
         <div className='certificate' id='certificate'>
             <h1>Certificate</h1>
-            <div className='container'>
-                {list.map((data)=>(
-                    <div className='data'>
-                        <span className='title'>{data.title}</span>
-                        <span className='date'>{data.date}</span>
-                        <span className='inst'>{data.inst}</span>
+            <div className='split'>
+                <div className='left'></div>
+                <div className='middle'>
+                    <div className='container'>
+                        {list.map((data)=>(
+                            <div className='data'>
+                                <span className='date'>{data.date}</span>
+                                <span className='title'>{data.title}</span>
+                                <span className='inst'>{data.inst}</span>
+                            </div>
+                            ))}
                     </div>
-                    ))}
+                </div>
+                <div className='right'></div>
             </div>
-            
-            
         </div>
     );
 }
