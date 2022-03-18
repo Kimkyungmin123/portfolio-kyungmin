@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-kyungmin/static/css/main.fb68d992.css",
+    "main.js": "/portfolio-kyungmin/static/js/main.0370bd57.js",
+    "index.html": "/portfolio-kyungmin/index.html",
+    "main.fb68d992.css.map": "/portfolio-kyungmin/static/css/main.fb68d992.css.map",
+    "main.0370bd57.js.map": "/portfolio-kyungmin/static/js/main.0370bd57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb68d992.css",
+    "static/js/main.0370bd57.js"
+  ]
+}
