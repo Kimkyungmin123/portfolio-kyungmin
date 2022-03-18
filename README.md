@@ -1,15 +1,15 @@
-## Portfolio - Kyungmin Kim
+# Portfolio - Kyungmin Kim
 
 : 김경민의 포트폴리오 _작업중_ 입니다.
 
-# 함수형 컴포넌트와 리액트 훅을 사용했습니다.
+##### 함수형 컴포넌트와 리액트 훅을 사용했습니다.
 
-### 🛠 Tech Stack
+## 🛠 Tech Stack
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
 <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
 
-### 🗂 Structure
+## 🗂 Structure
 
 ```bash
 src
