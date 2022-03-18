@@ -11,8 +11,7 @@ export default  function Intro(){
             backDelay:1500,
             backSpeed: 60,
             showCursor: true,
-
-            strings: ['성장하는', '열정뿜뿜', '긍정적인'] })    
+            strings: ['성장하는', '열정적인', '긍정적인'] })    
     }, [])
     return (
         <div className='intro' id='intro'>

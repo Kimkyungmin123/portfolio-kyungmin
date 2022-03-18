@@ -2,7 +2,6 @@ import './certificate.scss';
 
 export default  function Certificate ()  {
 
-
     const list = [
         {
             id : 1,

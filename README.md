@@ -1,5 +1,36 @@
-### Portfolio
+## Portfolio - Kyungmin Kim
 
-## 김경민의 포트폴리오 작업중 입니다.
+: 김경민의 포트폴리오 _작업중_ 입니다.
 
-https://kimkyungmin123.github.io/Portfolio/
+## 함수형 컴포넌트와 리액트 훅을 사용했습니다.
+
+### 🛠 Tech Stack
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
+
+---
+
+### 🗂 Structure
+
+```bash
+src
+├── components
+│   ├── certificate
+│   ├── education
+|   ├── intro
+|   ├── menu
+|   ├── portfolio
+|   ├── portfolioList
+|   ├── skills
+|   └── topbar
+├── App.jsx
+├── app.scss
+├── data.js
+├── global.scss
+└── index.js
+```
+
+---
+
+👀 : https://kimkyungmin123.github.io/Portfolio/

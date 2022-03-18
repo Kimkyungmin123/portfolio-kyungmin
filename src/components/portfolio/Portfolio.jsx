@@ -77,7 +77,6 @@ export default  function Portfolio(){
                     alt="" />
                     <h3>{d.title}</h3>
                 </div>
-                
                 ))}
                 </div>
             </div>

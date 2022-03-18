@@ -11,8 +11,7 @@
         top: 70px; 
 
         // 아래서 위로 페이지 올라갈 때 부드럽게 
-        scroll-behavior: smooth;
-        
+        scroll-behavior: smooth;      
         scroll-snap-type: y mandatory;
 
         // Hide the scrollbar

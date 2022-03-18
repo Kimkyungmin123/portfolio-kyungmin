@@ -1,5 +1,6 @@
 import './menu.scss';
 
+
 export default  function Menu({menuOpen={menuOpen} ,setMenuOpen={setMenuOpen}}){
     return (
         <div className={'menu '+(menuOpen && "active")}>
