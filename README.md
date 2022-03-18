@@ -2,7 +2,7 @@
 
 : 김경민의 포트폴리오 _작업중_ 입니다.
 
-##### 함수형 컴포넌트와 리액트 훅을 사용했습니다.
+##### 함수형 컴포넌트, Reack Hook 사용
 
 ## 🛠 Tech Stack
 
@@ -30,4 +30,4 @@ src
 
 ---
 
-👀 : https://Kimkyungmin123.github.io/portfolio
+👀 : https://Kimkyungmin123.github.io/portfolio-kyungmin/
