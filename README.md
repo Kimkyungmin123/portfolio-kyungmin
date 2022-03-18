@@ -30,4 +30,4 @@ src
 
 ---
 
-👀 : https://kimkyungmin123.github.io/Portfolio/
+👀 : https://Kimkyungmin123.github.io/portfolio
