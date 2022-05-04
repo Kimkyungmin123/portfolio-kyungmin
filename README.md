@@ -15,12 +15,12 @@ src
 ├── components
 │   ├── certificate
 │   ├── education
-|   ├── intro
-|   ├── menu
-|   ├── portfolio
-|   ├── portfolioList
-|   ├── skills
-|   └── topbar
+│   ├── intro
+│   ├── menu
+│   ├── portfolio
+│   ├── portfolioList
+│   ├── skills
+│   └── topbar
 ├── App.jsx
 ├── app.scss
 ├── data.js
